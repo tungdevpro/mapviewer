@@ -54,7 +54,7 @@ class _MapViewerState extends State<MapViewer> {
   void initState() {
     valueNotifier = ValueNotifier(null);
     mapController = MapController();
-    centerLocation = const LatLng(16.4871075, 111.6165039);
+    centerLocation = const LatLng(21.028511, 105.804817);
     _latlng = (widget.latlng != null) ? LatLng(widget.latlng![0] ?? 0, widget.latlng![1] ?? 0) : const LatLng(0, 0);
 
     super.initState();
